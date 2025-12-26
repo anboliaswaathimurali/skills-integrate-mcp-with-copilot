@@ -1,3 +1,22 @@
+/* Filters toolbar styles */
+.filters-toolbar {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.filters-toolbar label {
+  font-weight: bold;
+}
+
+.filters-toolbar select,
+.filters-toolbar input[type="text"] {
+  padding: 4px 8px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
 * {
   box-sizing: border-box;
   margin: 0;
